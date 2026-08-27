@@ -45,7 +45,7 @@
         <h2>About Me</h2>
 
         <p>
-            Hello! My name is Sahib. I am learning web development
+            Hello! My name is Sahib. I am learning digital marketing
             and creating websites using HTML, CSS and JavaScript.
         </p>
     </section>
@@ -123,17 +123,33 @@
     </div>
 </section>
 
-    <section id="contact"class="animate">
+   <section id="contact">
     <h2>Contact Me</h2>
 
-    <form onsubmit="sendMessage(event)">
-        <input type="text" id="name" placeholder="Your Name" required>
+    <form action="https://formspree.io/f/meaqjvzy" method="POST">
 
-        <input type="email" id="email" placeholder="Your Email" required>
+        <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+        >
 
-        <textarea id="message" placeholder="Your Message" required></textarea>
+        <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+        >
+
+        <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+        ></textarea>
 
         <button type="submit">Send Message</button>
+
     </form>
 </section>
 

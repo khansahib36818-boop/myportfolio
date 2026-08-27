@@ -1,7 +1,7 @@
 ﻿function showMessage() {
     alert("Thank you for visiting my portfolio!");
 }
-function sendMessage(event) {
+function  {
     event.preventDefault();
 
     let name = document.getElementById("name").value;

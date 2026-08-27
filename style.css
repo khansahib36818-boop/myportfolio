@@ -412,3 +412,7 @@ textarea:focus {
     background-color: #2a5298;
     color: white;
 }
+.animate {
+    opacity: 1;
+    transform: translateY(0);
+}

@@ -396,7 +396,9 @@ nav a {
 input:focus,
 textarea:focus {
     outline: 2px solid #2a5298;
-    .resume-btn {
+}
+
+.resume-btn {
     display: inline-block;
     margin-top: 15px;
     padding: 12px 25px;
@@ -406,6 +408,9 @@ textarea:focus {
     font-weight: bold;
     border-radius: 5px;
 }
+
+.resume-btn:hover {
+    transform: scale(1.05);
 }
 
 ::selection {

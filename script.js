@@ -1,20 +1,11 @@
-﻿function showMessage() {
+function showMessage() {
     alert("Thank you for visiting my portfolio!");
 }
-function  {
-    event.preventDefault();
 
-    let name = document.getElementById("name").value;
-
-    alert("Thank you " + name + "! Your message has been received.");
-
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("message").value = "";
-}
 function showProject(projectName) {
     alert("You selected: " + projectName);
 }
+
 function toggleTheme() {
     document.body.classList.toggle("dark-mode");
 
@@ -26,6 +17,14 @@ function toggleTheme() {
         button.innerHTML = "🌙 Dark Mode";
     }
 }
+
+// Mobile Menu
+function toggleMenu() {
+    let navMenu = document.getElementById("navMenu");
+    navMenu.classList.toggle("active");
+}
+
+// Scroll Animation
 const animatedSections = document.querySelectorAll(".animate");
 
 function checkScroll() {
@@ -40,8 +39,9 @@ function checkScroll() {
 }
 
 window.addEventListener("scroll", checkScroll);
-
 checkScroll();
+
+// Typing Animation
 const text = "I am a Digital Marketer";
 let index = 0;
 
@@ -54,7 +54,3 @@ function typeText() {
 }
 
 typeText();
-function toggleMenu() {
-    let navMenu = document.getElementById("navMenu");
-    navMenu.classList.toggle("active");
-}

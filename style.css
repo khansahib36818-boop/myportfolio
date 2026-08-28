@@ -421,3 +421,49 @@ textarea:focus {
     opacity: 1;
     transform: translateY(0);
 }
+.menu-btn {
+    display: none;
+    background: transparent;
+    color: white;
+    font-size: 28px;
+    padding: 5px 10px;
+    margin: 0;
+}
+
+/* Mobile Menu */
+@media (max-width: 768px) {
+
+    nav {
+        position: sticky;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px 20px;
+    }
+
+    nav h2 {
+        font-size: 20px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    #themeButton {
+        margin-left: auto;
+        font-size: 13px;
+    }
+}

@@ -520,3 +520,14 @@ footer h3 {
     background-color: #2a5298;
     color: white;
 }
+.skill-progress.digital-marketing {
+    width: 75%;
+}
+
+.skill-progress.social-media {
+    width: 70%;
+}
+
+.skill-progress.seo {
+    width: 65%;
+}

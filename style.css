@@ -553,3 +553,71 @@ footer h3 {
 .project-card button:hover {
     transform: scale(1.05);
 }
+/* Professional Contact Section */
+
+.contact-intro {
+    max-width: 650px;
+    margin: -5px auto 35px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    text-align: left;
+}
+
+.contact-info {
+    flex: 1;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.contact-info p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.contact-container form {
+    flex: 1;
+    max-width: 500px;
+}
+
+/* Dark Mode Contact */
+
+.dark-mode .contact-info {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* Mobile Contact */
+
+@media (max-width: 768px) {
+
+    .contact-container {
+        flex-direction: column;
+        gap: 25px;
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .contact-container form {
+        width: 100%;
+        max-width: none;
+    }
+}

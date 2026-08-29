@@ -531,3 +531,25 @@ footer h3 {
 .skill-progress.seo {
     width: 65%;
 }
+/* Projects Section */
+
+.projects-intro {
+    max-width: 700px;
+    margin: -5px auto 30px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.project-icon {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.project-card button {
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.project-card button:hover {
+    transform: scale(1.05);
+}
